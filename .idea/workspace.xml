@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c3e8e47-252e-48f2-bb71-9f8f6a185597" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/char_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_decoder.py" afterDir="false" />
-    </list>
+    <list default="true" id="5c3e8e47-252e-48f2-bb71-9f8f6a185597" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/char_decoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="243">
               <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
               <folding>
                 <element signature="e#84#96#0" expanded="true" />
@@ -320,7 +318,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/char_decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="243">
           <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
           <folding>
             <element signature="e#84#96#0" expanded="true" />
