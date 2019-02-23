@@ -104,14 +104,14 @@ class CharDecoder(nn.Module):
         h_0, c_0 = initialStates ## get initial states
         _, batch_size, _ = h_0.size() ## get batch size
 
-        start_tensor = torch.LongTensor([self.target_vocab.start_of_word], device=device).expand(1, batch_size)
+        start_tensor = torch.tensor([self.target_vocab.start_of_word], device=device, dtype=torch.long).expand(1, batch_size)
         char_idx_tensor = []
         for i in range(max_length):
             score_t, (h_0, c_0) = self.forward(start_tensor, (h_0, c_0))
             start_tensor = torch.argmax(score_t, dim=2)
             char_idx_tensor.append(torch.squeeze(start_tensor, dim=0).tolist())
 
-        output_words = torch.tensor(char_idx_tensor, device=device).permute(1, 0).tolist()
+        output_words = torch.tensor(char_idx_tensor).permute(1, 0).tolist()
 
         ### now we iterate until we hit end word
         final_words = []
